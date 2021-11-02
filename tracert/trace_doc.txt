@@ -1,0 +1,4 @@
+Запуск: python tracert.py [ip or name]
+Пример запуска: python tracert.py yandex.ru
+
+Для запуска необходимо установить следующие библиотеки для Python: beautifultable, requests

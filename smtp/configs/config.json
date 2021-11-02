@@ -1,0 +1,10 @@
+{
+    "host_addr": "smtp.yandex.ru",
+    "port": 465,
+    "user_name": "sharahnovru",
+    "user_address": "sharahnov@ya.ru",
+    "password": "Anyman2021",
+    "targets": ["sharahnoff@yandex.ru", "nikitos182001@mail.ru", "wotnikitoswot@gmail.com"],
+    "subject": "Checking client",
+    "attachments": ["smtp.jpg", "smtp.pdf"]
+}
