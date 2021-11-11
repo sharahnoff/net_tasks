@@ -32,7 +32,7 @@ def get_header(user, user_adr, targets, subject):
     return header
 
 def append(m1, m2):
-    m1 += f"--{BOUNDARY}" + "\n" + m2
+    m1 += f"--{BOUNDARY}" + "\n" + m2 + "\n"
     return m1
 
 def create_attachment(filename):

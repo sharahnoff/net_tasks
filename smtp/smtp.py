@@ -38,6 +38,8 @@ def main():
         for target in config['targets']:
             print(request(client, f"RCPT TO:{target}"))
         print(request(client, 'DATA'))
+        print(msg)
+        print(request(client, msg))
         input("Для завершения работы нажмите ENTER")
 
 
